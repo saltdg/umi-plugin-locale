@@ -31,7 +31,7 @@ export default {
 };
 ```
 
-** 返回数据结构 **
+**返回数据结构**
 
 ```
 {
@@ -42,6 +42,10 @@ export default {
 	}
 }
 ```
+
+**注**
+
+> 服务器返回的数据会和组件原本地的语言包合并，如果重复，会覆盖本地语言包！
 
 Other: You can setDefaultLocal in `src/app.js`
 
