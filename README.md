@@ -23,11 +23,24 @@ export default {
           baseNavigator: true, // 为true时，用navigator.language的值作为默认语言
           antd: true, // 是否启用antd的<LocaleProvider />
           baseSeparator: '-', // 语言默认分割符 -
+		  remote: '/api/local', // 配置远程拉取数据地址
         },
       },
     ],
   ],
 };
+```
+
+** 返回数据结构 **
+
+```
+{
+	code: 0,
+	message: '',
+	data: {
+		'app.name': '俺是标题!',
+	}
+}
 ```
 
 Other: You can setDefaultLocal in `src/app.js`
