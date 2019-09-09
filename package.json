@@ -1,0 +1,68 @@
+{
+  "_from": "umi-plugin-locale@2.9.13",
+  "_id": "umi-plugin-locale@2.9.13",
+  "_inBundle": false,
+  "_integrity": "sha1-nfNCyDNyTANie9QLRFCnGz7wl2I=",
+  "_location": "/umi-plugin-locale",
+  "_phantomChildren": {
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "umi-plugin-locale@2.9.13",
+    "name": "umi-plugin-locale",
+    "escapedName": "umi-plugin-locale",
+    "rawSpec": "2.9.13",
+    "saveSpec": null,
+    "fetchSpec": "2.9.13"
+  },
+  "_requiredBy": [
+    "/umi-plugin-react"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/umi-plugin-locale/download/umi-plugin-locale-2.9.13.tgz?cache=0&sync_timestamp=1566441733681&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fumi-plugin-locale%2Fdownload%2Fumi-plugin-locale-2.9.13.tgz",
+  "_shasum": "9df342c833724c03627bd40b4450a71b3ef09762",
+  "_spec": "umi-plugin-locale@2.9.13",
+  "_where": "E:\\xampp\\htdocs\\crm\\web\\node_modules\\umi-plugin-react",
+  "authors": [
+    "yutingzhao1991 <yutingzhao1991@sina.com> (https://github.com/yutingzhao1991)"
+  ],
+  "browser": {
+    "./lib/index.js": "./lib/locale.js"
+  },
+  "bugs": {
+    "url": "https://github.com/umijs/umi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "globby": "7.1.1",
+    "intl": "1.2.5",
+    "lodash.groupby": "4.6.0",
+    "moment": "2.x",
+    "mustache": "3.0.1",
+    "prop-types": "15.6.2",
+    "react-intl": "2.7.2",
+    "umi-utils": "1.5.6"
+  },
+  "deprecated": false,
+  "description": "A umi plugin for provide internationalization function.",
+  "files": [
+    "lib",
+    "src",
+    "template",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-locale",
+  "keywords": [
+    "umi"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "umi-plugin-locale",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umijs/umi/tree/master/packages/umi-plugin-locale"
+  },
+  "version": "2.9.13"
+}
